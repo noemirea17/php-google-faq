@@ -83,8 +83,8 @@ $FAQ = [
             <?php foreach($FAQ as $k => $value) { ?>
                 <h2> <?php echo ($value["domanda"]); ?></h2>  
                 <?php 
-                $newtext = preg_split(".:", $value["risposta"]);
-                // $newtext = explode(".", $value["risposta"]);
+                // $newtext = preg_split(".:", $value["risposta"]);
+                $newtext = explode(".", $value["risposta"]);
                     foreach($newtext as $k) { ?>
                        <p> <?php echo $k."."; ?> </p>
                 <?php }?>
