@@ -6,6 +6,7 @@
 
 body {
   font-family: "Noto Sans", sans-serif;
+  color: #5f6368;
 }
 
 .container {
@@ -27,34 +28,68 @@ header {
   align-items: center;
   justify-content: space-between;
   height: 10vh;
+  padding: 0 20px;
 }
 
 /* head sinistra */
-
-.upper_head img {
-  height: 30px;
-}
 
 .head_sx {
   display: flex;
   align-items: flex-end;
 }
-
-.head_sx span {
-  padding: 5px;
+.head_sx img {
+  height: 25px;
 }
 
+.head_sx span {
+  font-size: 1.5em;
+}
+
+/* head destra */
+
+.head_dx i {
+  margin: 0 15px;
+}
+
+.user {
+  display: inline;
+  background-color: rgb(197, 60, 83);
+  border-radius: 50%;
+  padding: 5px 10px;
+  color: white;
+}
 /* bottom head */
 
 .bottom_head {
   display: flex;
   align-items: flex-end;
   height: 5vh;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid blue;
+  padding: 0 15px;
+}
+
+ul {
+  margin: 10px 0;
 }
 
 .bottom_head ul li {
   display: inline;
   list-style: none;
   padding: 10px;
+}
+
+.bottom_head ul li:last-of-type {
+  color: blue;
+  border-bottom: 4px solid blue;
+}
+
+/* main */
+
+h2 {
+  color: #3c4043;
+  margin-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
 }
