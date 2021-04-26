@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* header */
+
+header {
+  height: 20vh;
+  width: 100%;
+}
+
+/* upper head */
+
+.upper_head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+}
+
+/* head sinistra */
+
+.upper_head img {
+  height: 30px;
+}
+
+.head_sx {
+  display: flex;
+  align-items: flex-end;
+}
+
+.head_sx span {
+  padding: 5px;
+}
+
+/* bottom head */
+
+.bottom_head {
+  display: flex;
+  align-items: flex-end;
+  height: 5vh;
+  border-bottom: 1px solid black;
+}
+
+.bottom_head ul li {
+  display: inline;
+  list-style: none;
+  padding: 10px;
+}
